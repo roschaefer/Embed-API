@@ -6,12 +6,12 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-1.4.0.tgz#1407c79b690c755afd1087a70471feba6ab03fb0"
 
-"@feathersjs/configuration@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-1.0.2.tgz#18da733e908fc39726233dbae867c6b0eb3920cd"
+"@feathersjs/configuration@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@feathersjs/configuration/-/configuration-2.0.4.tgz#b9d87a4d3371202e796bd28f0647ef21c23076c7"
   dependencies:
-    config "^1.27.0"
-    debug "^3.1.0"
+    config "^2.0.0"
+    debug "^4.0.0"
 
 "@feathersjs/errors@^3.0.0", "@feathersjs/errors@^3.3.0":
   version "3.3.0"
@@ -635,12 +635,11 @@ condense-whitespace@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/condense-whitespace/-/condense-whitespace-1.0.0.tgz#8376d98ef028e6cb2cd2468e28ce42c5c65ab1a9"
 
-config@^1.27.0:
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/config/-/config-1.30.0.tgz#1d60a9f35348a13c175798d384e81a5a16c3ba6e"
+config@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/config/-/config-2.0.1.tgz#995ccc8175460578d646ac0a2e4018ffa44ca046"
   dependencies:
-    json5 "0.4.0"
-    os-homedir "1.0.2"
+    json5 "^1.0.1"
 
 configstore@^3.0.0:
   version "3.1.2"
@@ -783,6 +782,12 @@ debug@3.1.0, debug@^3.1.0:
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
     ms "2.0.0"
+
+debug@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.0.1.tgz#f9bb36d439b8d1f0dd52d8fb6b46e4ebb8c1cd5b"
+  dependencies:
+    ms "^2.1.1"
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
@@ -1999,9 +2004,11 @@ json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
-json5@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-0.4.0.tgz#054352e4c4c80c86c0923877d449de176a732c8d"
+json5@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
+  dependencies:
+    minimist "^1.2.0"
 
 jsonify@~0.0.0:
   version "0.0.0"
@@ -2375,6 +2382,10 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
+ms@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
+
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -2560,7 +2571,7 @@ optionator@^0.8.2:
     type-check "~0.3.2"
     wordwrap "~1.0.0"
 
-os-homedir@1.0.2, os-homedir@^1.0.0:
+os-homedir@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
 
